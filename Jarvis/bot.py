@@ -4,7 +4,7 @@ import os
 
 st.title("Jarvis ChatBot")
 
-api_key = os.environ.get('r8_7cpbt0FRYOLfi66InIYCfHZAXQjNl3t4LNHhR')
+api_key = None
 
 
 # Check if the API key is provided via Streamlit secrets
