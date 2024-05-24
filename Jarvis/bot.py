@@ -2,10 +2,10 @@ import streamlit as st
 import replicate
 import os
 
-st.title("Robert's Slave")
+st.title("Jarvis ChatBot")
 
-# Set up the API key from Streamlit secrets or environment variables
-api_key = r8_QRTLa2bF64qse9x3FbdfFeEPGW3tEx42yYrSh
+api_key = os.environ.get('r8_7cpbt0FRYOLfi66InIYCfHZAXQjNl3t4LNHhR')
+
 
 # Check if the API key is provided via Streamlit secrets
 if 'REPLICATE_API_TOKEN' in st.secrets:
