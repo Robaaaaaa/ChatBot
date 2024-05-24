@@ -5,7 +5,7 @@ import os
 st.title("Robert's Slave")
 
 # Set up the API key from Streamlit secrets or environment variables
-api_key = None
+api_key = r8_QRTLa2bF64qse9x3FbdfFeEPGW3tEx42yYrSh
 
 # Check if the API key is provided via Streamlit secrets
 if 'REPLICATE_API_TOKEN' in st.secrets:
